@@ -1,0 +1,98 @@
+:root {
+  text-align: center;
+
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+}
+
+.color {
+  background-color: #2C3E50;
+}
+
+.footerColor {
+  background-color: #1A252F;
+}
+
+.border {
+
+  border-radius: 50%;
+  border: solid white 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.he {
+  height: 100vh;
+}
+
+.colorBody {
+  background-color: #1ABC9C;
+}
+
+.active {
+  background-color: #1ABC9C;
+  border-radius: 10px;
+}
+
+
+.First-Line {
+
+  background-color: #1A252F;
+  width: 80px;
+  height: 5px;
+
+}
+
+.Sco-Line {
+
+  background-color: #1A252F;
+  width: 80px;
+  height: 5px;
+
+}
+
+.First-Line1 {
+
+  background-color: white;
+  width: 80px;
+  height: 5px;
+
+}
+
+.Sco-Line1 {
+
+  background-color: white;
+  width: 80px;
+  height: 5px;
+
+}
+
+.layout {
+
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  transition: all 1s;
+  position: absolute;
+  opacity: 0;
+}
+
+.Div-layout:hover .layout {
+  background-color: #1ABC9C;
+  opacity: 1;
+}
+
+.icon {
+  font-size: 100px;
+}
