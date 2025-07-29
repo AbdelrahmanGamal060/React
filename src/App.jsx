@@ -3,7 +3,7 @@ import './App.css'
 import Layout from './Components/Layout'
 import About from './Components/About'
 import Portfolio from './Components/Portfolio'
-import Contact from './Components/contact'
+import Contact from './Components/Contact'
 import Home from './Components/Home'
 
 function App() {
