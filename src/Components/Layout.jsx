@@ -3,7 +3,7 @@ import Footer from './Footer'
 import Navber from './Navber'
 import About from './About'
 import Portfolio from './Portfolio'
-import Contact from './contact'
+import Contact from './Contact'
 import { Outlet } from 'react-router-dom'
 
 export default function Layout() {
